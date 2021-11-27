@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.container{
+    width: 70%;
+    
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+ 
+}
+.navbar-sign{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    background-color:  rgba(223, 220, 210, 0.4);
+  
+}
+.nav-dream-house{
+    width: 50%;
+    text-align: initial;
+    margin-left: 20px;
+    color: black;
+}
+
+.nav-dream-house .h-home{
+width: 14px;
+position: relative;
+top: 3px;
+left: 2px;
+}
+
+.navbar-sign-in-up{
+    width: 50%;
+    text-align: end;
+    margin-right: 3px;
+    color: rgb(41, 37, 37);
+}
+
+.input-header{
+    width: 95%;
+    text-align: right;
+    margin: 10px;
+    
+}
+.input-header input{
+    width: 150px;
+    color: black;
+    border: 0px;
+    background-color: rgba(223, 220, 210, 0.4);
+    background-image: url("../img/search_white_48dp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right;
+}
+
+.text-content{
+    width: 400px;
+    height: 100px;
+    padding: 15px;
+    margin-left: 15px;
+
+}
+.text-content h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.text-content h6{
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: normal;
+}
+
+header {
+	background: url(../img/backgroun-header.png) no-repeat bottom center;
+	background-size: cover;
+    background-repeat: no-repeat;
+	color: #f1e8e8;
+    width: 100%;
+	height: 500px;
+    position: relative;
+}
+
+.section-title {
+	
+    padding: 25px;
+    color:black;
+    margin-bottom: -40px;
+}
+
+.section-title-explore{
+    padding: 25px;
+    margin-bottom: -40px;
+}
+
+.clearfix{
+    clear: both;
+}
+.space {
+	margin-top: 40px;
+}
+.caja-conteiner{
+   
+    display: flex;
+    
+    padding: 20px;
+    flex-direction: row;
+    margin: 0 auto;
+   justify-content: center;
+  
+    
+}
+.caja{
+border: 1px solid rgb(70, 69, 69);
+background-color: white;
+color: black;
+
+font-weight: bold;
+width: 500px;
+height: 300px;
+text-align: center;
+margin: 5px;
+
+
+}
+
+.c1{
+    background-image: url("../img/buy\ house-01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 200px 120px;
+    background-position: top;
+ 
+}
+.c2{
+    background-image: url("../img/Sell\ house\ -01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 200px 120px;
+    background-position: top;
+}
+.c3{
+    background-image: url("../img/Rent\ house-01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 200px 120px;
+    background-position: top;
+}
+.caja h2{
+    line-height: 200px;
+    font-weight: 50px;
+    margin-top: 15px;
+    margin-bottom: -79px;
+   
+}
+
+.caja p{
+padding: 15px;
+    text-align: center;
+    font-size: 10px;
+}
+button{
+    margin: 15px;
+    padding: 5px;
+    background-color: rgb(34, 29, 29);
+    color: white;
+    border-radius: 5px;
+}
+
+.section-view {
+    text-align: center;
+    
+    
+    
+}
+.section-view button{
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 5px;
+}
+footer{
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+
+.grid-layout{
+    display: grid;
+    grid-template-columns:  30% 30% 35% ;
+    grid-template-rows: auto;   
+    width: 90%;
+   
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.box{
+    min-height: 150px;
+    margin: 5px;
+}
+
+.grid-layout button{
+    background-color: lightgrey;
+    color: black;
+}
+.grid-layout h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    
+    background-color: hsla(49, 23%, 29%, 0.719);
+    padding: 5px;
+    
+}
+
+.florida{
+    background-image: url(../img/florida.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-row: 1/3;
+    background-size: 100% 100%;
+    
+
+}
+.georgia{
+    background-image: url(../img/georgia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 2/3;
+    grid-row: 3/ span 2;
+    background-size: 100% 100%;
+   
+}
+
+.miami{
+
+    background-image: url(../img/miami.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.texas{
+
+    background-image: url(../img/texas.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.colorado{
+
+    background-image: url(../img/colorado.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.newyork{
+
+    background-image: url(../img/newyork.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.washinton{
+    background-image: url(../img/washinton.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.california{
+    background-image: url(../img/california.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.chicago{
+    background-image: url(../img/chicago.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.toronton{
+    background-image: url(../img/toronton.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
