@@ -42,6 +42,9 @@ header {
   margin-left: 20px;
   color: black;
 }
+.navbar-brand {
+  text-decoration: none;
+}
 
 .nav-dream-house .h-home {
   width: 14px;
