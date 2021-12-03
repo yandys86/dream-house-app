@@ -1,6 +1,8 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
   box-sizing: border-box;
 }
 
@@ -62,6 +64,92 @@ header {
   justify-content: space-between;
   padding: 3px;
 }
+
+/************************selecp bar***************************************************/
+
+nav {
+  width: 163px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 5px;
+}
+ul li .img {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-around;
+  width: 122px;
+}
+
+.select {
+  width: 110px;
+  color: black;
+}
+
+@media screen and (max-width: 650px) {
+  .select #lab-user {
+    display: none;
+  }
+  .select {
+    width: 10px;
+  }
+}
+
+.select input {
+  width: 80px;
+  border-radius: 5px;
+}
+
+.select i:hover {
+  cursor: pointer;
+  color: brown;
+}
+
+.img img {
+  width: 25px;
+}
+ul li {
+  height: 15px;
+}
+ul li a {
+  margin-left: 10px;
+  color: rgb(80, 76, 76);
+  font-size: 15px;
+}
+ul li a:hover {
+  background-color: rgb(134, 131, 131);
+  border-radius: 2px;
+}
+.card-user {
+  border-radius: 10px;
+  width: 150px;
+  height: 118px;
+  background-color: white;
+
+  position: absolute;
+  right: 0px;
+  visibility: hidden;
+}
+.line {
+  background-size: contain;
+  width: 95%;
+  height: 13px;
+  background-position: center;
+  margin: 2px;
+}
+
+#check {
+  display: none;
+}
+#check:checked ~ .card-user {
+  visibility: visible;
+}
+#check:checked ~ nav .img {
+  display: none;
+}
+
+/***********************************************************************************/
 .user {
   display: flex;
   height: 23px;
@@ -117,9 +205,9 @@ header {
 }
 
 .section-title {
-  padding: 20px;
+  padding: 34px;
   color: rgb(90, 86, 86);
-  margin-left: 5%;
+  margin-left: 0%;
   font-size: 20px;
 }
 
@@ -170,6 +258,10 @@ header {
   top: 18px;
 }
 
+a img.icon-heart:hover {
+  background-color: darkred;
+}
+
 @media screen and (max-width: 750px) {
   .container {
     flex-direction: column;
@@ -196,4 +288,86 @@ footer {
   padding: 5px;
   border-bottom: 1px solid black;
   margin-bottom: 40px;
+}
+
+/*******************section views**************************************/
+
+.view-foto img {
+  width: 100%;
+}
+
+.view-list-fotos {
+  width: 100%;
+  display: flex;
+  /* height: 400px; */
+  justify-content: center;
+  margin: 5px;
+  align-content: center;
+  align-items: flex-start;
+}
+.view-list-fotos ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.view-list-fotos ul li img {
+  width: 300px;
+  height: 270px;
+}
+
+.view-list-fotos ul li {
+  height: 73%;
+}
+
+.goback-img img {
+  width: 150px;
+}
+
+.datos {
+  display: flex;
+
+  color: rgb(90, 86, 86);
+  margin: 10px;
+}
+ul.datos1 {
+  width: 50%;
+  height: 300px;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 25px;
+}
+
+ul.datos2 {
+  width: 50%;
+  height: 300px;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 25px;
+}
+
+ul.datos2 li a button {
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  font-size: 25px;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  color: seashell;
+  background-color: rgb(6, 41, 146);
+}
+
+ul.datos2 li a button:hover {
+  background: #c8d4d6;
+  color: #fff;
 }

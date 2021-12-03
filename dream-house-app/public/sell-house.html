@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House for Sales</title>
+    <!-- Stylessheet=====================================-->
+    <link rel="stylesheet" href="./css/sell-house.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/81fbde03d3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- #header -->
+    <header style="background-image: url('./img/header\ back.png')">
+      <div class="navbar">
+        <div class="nav-dream-house">
+          <a class="navbar-brand" href="./index.html">
+            Dream <img src="./img/h-home.png" class="h-home" />ouse
+          </a>
+        </div>
+        <div class="input-header">
+          <input type="text" placeholder="Search" />
+        </div>
+
+        <!--esto es para hacer la tarjeta flotante-->
+
+        <nav>
+          <label class="img">
+            <img src="./img/user-icon.png" />
+          </label>
+          <div class="select">
+            <label for="check" class="checkbtn">
+              <label id="lab-user">User name</label>
+              <i class="fas fa-caret-down"></i>
+            </label>
+          </div>
+        </nav>
+      </div>
+
+      <div class="text-content">
+        <h1>
+          Sell your home <br />
+          with confidence
+        </h1>
+        <h6>
+          Dream House is making it simpler to<br />
+          sell your home and move forward.
+        </h6>
+      </div>
+    </header>
+    <!-- #header -->
+    <!--esto es para el selec option-->
+
+    <input type="checkbox" id="check" />
+
+    <div class="card-user">
+      <ul>
+        <li>
+          <a href="#"> Save house</a>
+        </li>
+        <li>
+          <div
+            class="line"
+            style="background-image: url('./img/line-icon.png')"
+          ></div>
+        </li>
+
+        <li>
+          <a href="#"> Buy a house</a>
+        </li>
+        <li>
+          <a href="#"> Sell a house</a>
+        </li>
+        <li>
+          <a href="#"> Rent a house</a>
+        </li>
+        <li>
+          <div
+            class="line"
+            style="background-image: url('./img/line-icon.png')"
+          ></div>
+        </li>
+        <li>
+          <a href="#"> Log Out</a>
+        </li>
+      </ul>
+    </div>
+    <!--esto es para el selec option-->
+
+    <div class="clearfix"></div>
+    <!--=====================card titulo=====================-->
+
+    <div class="text-content1">
+      <h1>Sell your home directly to Dream House.</h1>
+      <h6>
+        Getting a competitive cash offer from Dream House is an easy path to
+        sell your home, with more control and less prepwork. You sell your home
+        as-is and get paid with no surprises, while we take care of the rest.
+      </h6>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <form action="post" class="form">
+      <label for=""
+        ><h4>Input your home information to get counselling.</h4>
+        <br
+      /></label>
+      <label for="Address"
+        ><h6>Address</h6>
+
+        <input type="text" placeholder="Enter your full house address" />
+      </label>
+      <label for="size">
+        <h6>How much Square feet is your building?</h6>
+
+        <input type="text" placeholder="Enter the area size of house " />
+      </label>
+
+      <label for="age">
+        <h6>How old is your building?</h6>
+
+        <input type="text" placeholder="Enter the age of building" />
+      </label>
+
+      <input type="submit" class="btn" />
+    </form>
+
+    <!--footer-->
+    <footer>
+      <div class="nav-dream-house">
+        <a class="navbar-brand" href="./index.html"
+          >Dream <img src="./img/h-home.png" class="h-home" />ouse</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

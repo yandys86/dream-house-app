@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -20,9 +21,9 @@ body {
 /*-=====================navbar======================================*/
 
 header {
-  background: url(../img/backgroun-header.png) no-repeat bottom center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom center;
   color: #f1e8e8;
   width: 100%;
   height: 500px;
@@ -269,7 +270,7 @@ header {
   transition: all 400ms ease;
   color: black;
   background: rgba(233, 233, 224, 0.63);
-  width: 50%;
+  width: 85%;
   margin: 10px;
 }
 
@@ -302,4 +303,57 @@ footer {
   padding: 5px;
   border-bottom: 1px solid black;
   margin-bottom: 40px;
+}
+
+/************************sign in**********************************************************/
+
+.login {
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 38%;
+  top: 25%;
+  text-align: center;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login div h3 {
+  margin: 10px;
+  color: #6a6a6a;
+}
+
+.logo {
+  margin: 10px;
+}
+
+.login .logo img {
+  width: 150px;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.login form input {
+  width: calc(100% - 10px);
+  height: 41px;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.login form h4 {
+  margin-left: 10px;
+}
+
+.login form input {
+  background-color: rgb(226, 221, 221);
+}
+
+.login form .button-input {
+  background-color: rgb(73, 90, 189);
+  color: white;
 }

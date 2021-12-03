@@ -7,6 +7,10 @@
     <title>House for Sales</title>
     <!-- Stylessheet=====================================-->
     <link rel="stylesheet" href="./css/salehouse.css" type="text/css" />
+    <script
+    src="https://kit.fontawesome.com/81fbde03d3.js"
+    crossorigin="anonymous"
+  ></script>
   </head>
   <body>
     <!-- #header -->
@@ -20,6 +24,35 @@
         <div class="input-header">
           <input type="text" placeholder="Search" />
         </div>
+
+
+<!--esto es para hacer la tarjeta flotante-->
+        
+        <nav>
+          
+          <label class="img">
+            <img src="./img/user-icon.png" />
+          </label>
+          <div class="select">
+          <label for="check" class="checkbtn">
+            <label id="lab-user">User name</label>
+            <i class="fas fa-caret-down"></i>
+          </label>
+        </div>
+  
+        </nav>
+
+
+
+        <!--options select------------------------------------------>
+
+
+      
+
+ <!--options select------------------------------------------>
+
+
+        <!--    
         <div class="user">
           <img src="./img/user-icon.png" />
           <select name="user" id="user">
@@ -31,8 +64,42 @@
             <option value="User">Log Out</option>
           </select>
         </div>
-      </div>
+      </div> -->
     </header>
+
+    <input type="checkbox" id="check" />
+
+    <div class="card-user">
+      
+      <ul>
+      
+        <li>
+          <a href="#"> Save house</a>
+        </li>
+        <li><div class="line" style="background-image: url('./img/line-icon.png')"></div></li>
+        
+        <li>
+          <a href="#"> Buy a house</a>
+        </li>
+        <li>
+          <a href="#"> Sell a house</a>
+        </li>
+        <li>
+          <a href="#"> Rent a house</a>
+        </li>
+        <li><div class="line" style="background-image: url('./img/line-icon.png')"></div></li>
+        <li>
+        <a href="#"> Log Out</a>
+      </li>
+      </ul>
+</div>
+
+
+
+
+
+
+
     <!-- #header -->
     <div class="clearfix"></div>
     <!--=====================card titulo=====================-->
@@ -47,7 +114,8 @@
 
     <div class="conteiner">
       <div class="card">
-        <img class="icon-heart" src="./img/Group 59.png" />
+        <a href="./savehouse.html"><img class="icon-heart" src="./img/Group 59.png" /></a>
+        
         <img src="./img/san francisco1.png" />
         <div class="contenido">
           <h2>$1,195,000</h2>
@@ -59,20 +127,7 @@
         </div>
       </div>
       <div class="card">
-        <img class="icon-heart" src="./img/Group 59.png" />
-        <img src="./img/san francisco1.png" />
-        <div class="contenido">
-          <h2>$1,195,000</h2>
-          <div class="dimensions">
-            <h3>3bhk</h3>
-            <h3>1,800 sqft</h3>
-          </div>
-          <h3>San Francisco, CA99494</h3>
-        </div>
-      </div>
-
-      <div class="card">
-        <img class="icon-heart" src="./img/Group 59.png" />
+        <a href="./savehouse.html"><img class="icon-heart" src="./img/Group 59.png" /></a>
         <img src="./img/san francisco1.png" />
         <div class="contenido">
           <h2>$1,195,000</h2>
@@ -85,7 +140,7 @@
       </div>
 
       <div class="card">
-        <img class="icon-heart" src="./img/Group 59.png" />
+        <a href="./savehouse.html"><img class="icon-heart" src="./img/Group 59.png" /></a>
         <img src="./img/san francisco1.png" />
         <div class="contenido">
           <h2>$1,195,000</h2>
@@ -98,7 +153,7 @@
       </div>
 
       <div class="card">
-        <img class="icon-heart" src="./img/Group 59.png" />
+        <a href="./savehouse.html"><img class="icon-heart" src="./img/Group 59.png" /></a>
         <img src="./img/san francisco1.png" />
         <div class="contenido">
           <h2>$1,195,000</h2>
@@ -111,7 +166,7 @@
       </div>
 
       <div class="card">
-        <img class="icon-heart" src="./img/Group 59.png" />
+        <a href="./savehouse.html"><img class="icon-heart" src="./img/Group 59.png" /></a>
         <img src="./img/san francisco1.png" />
         <div class="contenido">
           <h2>$1,195,000</h2>
@@ -124,7 +179,7 @@
       </div>
 
       <div class="card">
-        <img class="icon-heart" src="./img/Group 59.png" />
+        <a href="./savehouse.html"><img class="icon-heart" src="./img/Group 59.png" /></a>
         <img src="./img/san francisco1.png" />
         <div class="contenido">
           <h2>$1,195,000</h2>
@@ -137,7 +192,7 @@
       </div>
 
       <div class="card">
-        <img class="icon-heart" src="./img/Group 59.png" />
+        <a href="./savehouse.html"><img class="icon-heart" src="./img/Group 59.png" /></a>
         <img src="./img/san francisco1.png" />
         <div class="contenido">
           <h2>$1,195,000</h2>
@@ -150,7 +205,20 @@
       </div>
 
       <div class="card">
-        <img class="icon-heart" src="./img/Group 59.png" />
+        <a href="./savehouse.html"><img class="icon-heart" src="./img/Group 59.png" /></a>
+        <img src="./img/san francisco1.png" />
+        <div class="contenido">
+          <h2>$1,195,000</h2>
+          <div class="dimensions">
+            <h3>3bhk</h3>
+            <h3>1,800 sqft</h3>
+          </div>
+          <h3>San Francisco, CA99494</h3>
+        </div>
+      </div>
+
+      <div class="card">
+        <a href="./savehouse.html"><img class="icon-heart" src="./img/Group 59.png" /></a>
         <img src="./img/san francisco1.png" />
         <div class="contenido">
           <h2>$1,195,000</h2>
