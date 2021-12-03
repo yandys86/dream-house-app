@@ -292,6 +292,11 @@ footer {
 
 /*******************section views**************************************/
 
+.view-foto {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .view-foto img {
   width: 100%;
 }
